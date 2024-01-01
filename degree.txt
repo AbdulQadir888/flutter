@@ -1,0 +1,12 @@
+Q4: Write a program to convert Celsius to Fahrenheit .
+i.e: Temperature in degrees Fahrenheit (°F) = (Temperature in degrees Celsius
+(°C) * 9/5) + 32
+
+void main() {
+
+  double temperatureInCelsius = 60.0;
+
+  double temperatureInFahrenheit = (temperatureInCelsius * 9 / 5) + 32;
+
+  print("$temperatureInCelsius°C is equal to $temperatureInFahrenheit°F");
+}
